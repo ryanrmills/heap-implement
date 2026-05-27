@@ -102,6 +102,10 @@ public class Heap {
         return new int[]{(2 * index + 1), (2 * index + 2)};
     }
 
+    public boolean isEmpty(){
+        return numList.isEmpty();
+    }
+
     public String toString(){
         return numList.toString();
     }
